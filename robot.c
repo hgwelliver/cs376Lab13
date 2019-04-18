@@ -30,6 +30,7 @@ void robotPrintMessage(void)
  */
 void robotPrintAscii(void)
 {
+ 
   int i;
   char* blank = "                              ";
   blank = blank +30;
@@ -43,7 +44,10 @@ void robotPrintAscii(void)
 	 "%s   ^   ^   \n",blank, blank, blank, blank);
 
   blank = blank - 10;
-}}
+
+}
+}
+
 
 /**
  * dalekPrintAscii
