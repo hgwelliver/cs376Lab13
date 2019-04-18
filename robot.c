@@ -4,7 +4,7 @@
  * A file that contains the supporting functions for main() in the
  * ~/robots example source for Software Engineering.
  *
- * @author Tanya L. Crenshaw, Nathan Schmedake, Haley Welliver
+ * @author Tanya L. Crenshaw, Nathan Schmedake, Haley Welliver, Joshua Henderson
  * @since August 2013
  *
  */
@@ -14,7 +14,7 @@
 /**
  * robotPrintMessage
  *
- * This function prints the message, "I really love robots!"
+ * This function prints the message, "I really love robots!" tTest 
  *
  * @returns none 
  */
@@ -36,7 +36,7 @@ void robotPrintAscii(void)
   printf("\n\n"
 	 "UWR: Unidentified Un-Wheeled Robot\n"
 	 "%s    i_i    \n"
-	 "%s   [@_@]   \n"
+	 "%s   [o_o]   \n"
 	 "%s  /|___|\\ \n"
 	 "%s   ^   ^   \n",blank, blank, blank, blank);
 
@@ -60,6 +60,7 @@ void dalekPrintAscii(void)
          "%s    < ------- >    \n"
          "%s    o         o    \n"
          "%s    o  0  <3  o    \n"
+         "%s    o  0  0   o    \n"
 	 "%s   o           o   \n"
    	 "%s o o o o o o o o o \n"
    	 "%s o o o o o o o o o \n"
